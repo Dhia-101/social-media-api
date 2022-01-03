@@ -3,7 +3,7 @@ package com.dhia.springsocialmediaapi.services.jpaImplementation;
 import com.dhia.springsocialmediaapi.domain.Comment;
 import com.dhia.springsocialmediaapi.domain.Post;
 import com.dhia.springsocialmediaapi.mapper.CommentMapper;
-import com.dhia.springsocialmediaapi.model.CommentDTO;
+import com.dhia.springsocialmediaapi.payload.CommentDTO;
 import com.dhia.springsocialmediaapi.repositories.CommentRepository;
 import com.dhia.springsocialmediaapi.repositories.PostRepository;
 import com.dhia.springsocialmediaapi.services.CommentService;

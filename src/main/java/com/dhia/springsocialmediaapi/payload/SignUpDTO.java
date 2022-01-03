@@ -1,4 +1,4 @@
-package com.dhia.springsocialmediaapi.model;
+package com.dhia.springsocialmediaapi.payload;
 
 import lombok.Data;
 

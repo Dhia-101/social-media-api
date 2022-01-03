@@ -1,7 +1,7 @@
 package com.dhia.springsocialmediaapi.mapper;
 
 import com.dhia.springsocialmediaapi.domain.User;
-import com.dhia.springsocialmediaapi.model.UserDTO;
+import com.dhia.springsocialmediaapi.payload.UserDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

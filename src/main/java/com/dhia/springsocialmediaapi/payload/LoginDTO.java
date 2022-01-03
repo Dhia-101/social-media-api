@@ -1,4 +1,4 @@
-package com.dhia.springsocialmediaapi.model;
+package com.dhia.springsocialmediaapi.payload;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;

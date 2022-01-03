@@ -1,6 +1,6 @@
 package com.dhia.springsocialmediaapi.services;
 
-import com.dhia.springsocialmediaapi.model.PostDTO;
+import com.dhia.springsocialmediaapi.payload.PostDTO;
 
 import java.util.List;
 

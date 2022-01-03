@@ -1,7 +1,7 @@
 package com.dhia.springsocialmediaapi.mapper;
 
 import com.dhia.springsocialmediaapi.domain.Post;
-import com.dhia.springsocialmediaapi.model.PostDTO;
+import com.dhia.springsocialmediaapi.payload.PostDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

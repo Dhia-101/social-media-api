@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 @Component
@@ -49,7 +50,6 @@ public class DataLoader implements CommandLineRunner {
 
 
 
-
         User user1 = new User("user1",
                 "user1lN",
                 "foo",
@@ -57,8 +57,9 @@ public class DataLoader implements CommandLineRunner {
                 passwordEncoder.encode("foo"),
                 roles,
                 new HashSet<>(),
+                new HashSet<>(),
+                new HashSet<>(),
                 new HashSet<>());
-
 
         Set<Role> rolesUser2 = new HashSet<>();
         rolesUser2.add(user);
@@ -71,8 +72,14 @@ public class DataLoader implements CommandLineRunner {
                 passwordEncoder.encode("user2"),
                 rolesUser2,
                 new HashSet<>(),
+                new HashSet<>(),
+                new HashSet<>(),
                 new HashSet<>());
 
+//        Message message = new Message( user1, user2, "test", LocalDateTime.now());
+//        Set<Message> messages = new HashSet<>() ;
+//        messages.add(message);
+//        user1.getMessagesSent().add(message);
 
         Set<Role> rolesUser3 = new HashSet<>();
         rolesUser3.add(user);
@@ -84,13 +91,13 @@ public class DataLoader implements CommandLineRunner {
                 passwordEncoder.encode("user3"),
                 rolesUser3,
                 new HashSet<>(),
+                new HashSet<>(),
+                new HashSet<>(),
                 new HashSet<>());
 
         Post post1 = new Post("post1", user1);
         Post post2 = new Post("post2", user1);
         Post post3 = new Post("post3", user2);
-
-
 
         Comment comment1 = new Comment("comment1", LocalDateTime.now(), post1);
         Comment comment2 = new Comment("comment2", LocalDateTime.now(), post1);

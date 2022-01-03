@@ -1,9 +1,9 @@
 package com.dhia.springsocialmediaapi.controllers;
 
 import com.dhia.springsocialmediaapi.domain.User;
-import com.dhia.springsocialmediaapi.model.JwtAuthResponse;
-import com.dhia.springsocialmediaapi.model.LoginDTO;
-import com.dhia.springsocialmediaapi.model.SignUpDTO;
+import com.dhia.springsocialmediaapi.payload.JwtAuthResponse;
+import com.dhia.springsocialmediaapi.payload.LoginDTO;
+import com.dhia.springsocialmediaapi.payload.SignUpDTO;
 import com.dhia.springsocialmediaapi.repositories.UserRepository;
 import com.dhia.springsocialmediaapi.security.CustomUserDetailsService;
 import com.dhia.springsocialmediaapi.services.UserService;

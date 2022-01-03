@@ -3,7 +3,7 @@ package com.dhia.springsocialmediaapi.services.jpaImplementation;
 import com.dhia.springsocialmediaapi.domain.Post;
 import com.dhia.springsocialmediaapi.domain.User;
 import com.dhia.springsocialmediaapi.mapper.UserMapper;
-import com.dhia.springsocialmediaapi.model.UserDTO;
+import com.dhia.springsocialmediaapi.payload.UserDTO;
 import com.dhia.springsocialmediaapi.repositories.UserRepository;
 import com.dhia.springsocialmediaapi.exceptions.ResourceNotFoundException;
 import com.dhia.springsocialmediaapi.services.UserService;

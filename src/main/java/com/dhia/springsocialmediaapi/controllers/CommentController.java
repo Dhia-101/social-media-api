@@ -1,12 +1,15 @@
 package com.dhia.springsocialmediaapi.controllers;
 
-import com.dhia.springsocialmediaapi.model.CommentDTO;
+import com.dhia.springsocialmediaapi.payload.CommentDTO;
 import com.dhia.springsocialmediaapi.services.CommentService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+<<<<<<< Updated upstream
 import org.springframework.messaging.handler.annotation.DestinationVariable;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
+=======
+>>>>>>> Stashed changes
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.web.bind.annotation.*;
 

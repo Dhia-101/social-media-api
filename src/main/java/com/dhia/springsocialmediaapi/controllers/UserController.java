@@ -1,6 +1,6 @@
 package com.dhia.springsocialmediaapi.controllers;
 
-import com.dhia.springsocialmediaapi.model.UserDTO;
+import com.dhia.springsocialmediaapi.payload.UserDTO;
 import com.dhia.springsocialmediaapi.services.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

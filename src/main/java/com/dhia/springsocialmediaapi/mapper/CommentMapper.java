@@ -1,7 +1,7 @@
 package com.dhia.springsocialmediaapi.mapper;
 
 import com.dhia.springsocialmediaapi.domain.Comment;
-import com.dhia.springsocialmediaapi.model.CommentDTO;
+import com.dhia.springsocialmediaapi.payload.CommentDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

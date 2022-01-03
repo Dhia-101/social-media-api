@@ -3,7 +3,7 @@ package com.dhia.springsocialmediaapi.services.jpaImplementation;
 import com.dhia.springsocialmediaapi.domain.Post;
 import com.dhia.springsocialmediaapi.domain.User;
 import com.dhia.springsocialmediaapi.mapper.PostMapper;
-import com.dhia.springsocialmediaapi.model.PostDTO;
+import com.dhia.springsocialmediaapi.payload.PostDTO;
 import com.dhia.springsocialmediaapi.repositories.PostRepository;
 import com.dhia.springsocialmediaapi.repositories.UserRepository;
 import com.dhia.springsocialmediaapi.services.PostService;
